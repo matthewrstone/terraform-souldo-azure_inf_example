@@ -18,3 +18,7 @@ variable "region" {
     description = "The Azure location to build in."
     default = "centralus"
 }
+
+variable "azure_ssh_public_key" {
+  default = ""
+}
