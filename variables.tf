@@ -19,6 +19,4 @@ variable "region" {
     default = "centralus"
 }
 
-variable "azure_ssh_public_key" {
-  default = ""
-}
+variable "azure_ssh_public_key" {}
